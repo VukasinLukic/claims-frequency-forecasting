@@ -8,7 +8,7 @@ Claims forecasting on 678,013 French motor policies (freMTPL2), evaluated on a s
 
 | Model | Poisson deviance vs. baseline | Predicted / actual claims | Normalised Gini |
 |---|---:|---:|---:|
-| Portfolio claim rate (baseline) | 0% | 1.000 | 0 |
+| Portfolio claim rate (baseline) | 0% | | |
 | Poisson GLM (splines) | −5.2% | 0.998 | 0.302 |
 | LightGBM (Poisson) | **−8.8%** | 0.999 | 0.354 |
 
