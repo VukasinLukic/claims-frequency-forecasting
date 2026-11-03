@@ -40,6 +40,7 @@ Use Python 3.11 or 3.12:
 
 ```bash
 python -m venv .venv
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install pandas numpy matplotlib seaborn scikit-learn lightgbm pyarrow jupyter
 jupyter notebook
 ```
